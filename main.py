@@ -1,16 +1,11 @@
-# This is a sample Python script.
+# Задача 5. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
+# Пример:
+# - A (3,6); B (2,1) -> 5,09
+# - A (7,-5); B (1,-1) -> 7,21
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def calculate_distance(x1, y1, x2, y2):
+     return int((((x2 - x1) ** 2 + (y2 - y1) ** 2) ** (0.5)) * 100) / 100
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+X1, Y1, X2, Y2 = float(input("Задача 5. Введите x1 - ")), float(input("y1 - ")), float(input("x2 - ")), float(input("y2 - "))
+print(f'Расстояние между точками {calculate_distance(X1, Y1, X2, Y2)}')
