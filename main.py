@@ -9,3 +9,4 @@ def calculate_distance(x1, y1, x2, y2):
 
 X1, Y1, X2, Y2 = float(input("Задача 5. Введите x1 - ")), float(input("y1 - ")), float(input("x2 - ")), float(input("y2 - "))
 print(f'Расстояние между точками {calculate_distance(X1, Y1, X2, Y2)}')
+hjvbjbnbnb,m,m,
